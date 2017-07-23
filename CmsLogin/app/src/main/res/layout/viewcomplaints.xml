@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/edit">
+
+
+    <TableLayout
+        android:id="@+id/t_l1"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/complaint">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+
+ <TextView
+     android:id="@+id/complaint"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:fontFamily="serif"
+     android:text="COMPLAINTS"
+     android:textAlignment="center"
+     android:textAllCaps="true"
+     android:textColor="@android:color/black"
+     android:textColorHighlight="@android:color/black"
+     android:textColorHint="@android:color/black"
+     android:textColorLink="@android:color/background_dark"
+     android:textSize="24sp"
+     android:textStyle="normal|bold"
+     android:layout_marginTop="16dp"
+     android:layout_alignParentTop="true"
+     android:layout_alignParentStart="true"
+     android:layout_marginStart="98dp" />
+
+
+</RelativeLayout>
